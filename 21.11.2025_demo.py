@@ -1,5 +1,6 @@
 
 import streamlit as st
+import time
 
 st.title("Business Dashboard with Streamlit Layouts")
 
@@ -58,3 +59,14 @@ with st.expander("More Information"):
     st.write("## Additional details on data collection methods.")
     st.write("Data was collected through surveys and sales reports.")
     st.write("- Data was collected through surveys and sales reports.")
+
+placeholder = st.empty()
+for i in range(5):
+    placeholder.write(f"Loading data... {i*20}% complete")
+    time.sleep(1)
+placeholder.write("Data loading complete. Displaying business insights.")
+
+business_insights = [ ... ]
+for insight in business_insights:
+    placeholder.write(insight)
+    time.sleep(2)
