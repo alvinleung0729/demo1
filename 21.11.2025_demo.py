@@ -36,7 +36,10 @@ with tab2:
         "Quick delivery and excellent support."
     ]
     for idx, feedback in enumerate(customer_feedback):
-        st.write(f" {idx+1}. {feedback}") # hyphen means bullet point
+        st.write(f" {idx+1}. {feedback}") 
+        
+    # for idx, feedback in (customer_feedback):
+        # st.write(f" - {feedback}") # hyphen means bullet point
        
 
 with tab3:
