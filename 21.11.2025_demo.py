@@ -51,3 +51,7 @@ with tab3:
     }
     for idx, (trend, status) in enumerate(market_trends.items()):
         st.write(f"{idx+1}. {trend}: {status}")
+
+with st.expander("More Information"):
+    st.write("Additional details on data collection methods.")
+    st.write("Data was collected through surveys and sales reports.")
