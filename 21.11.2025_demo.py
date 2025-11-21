@@ -39,7 +39,7 @@ with tab2:
         st.write(f" {idx+1}. {feedback}") 
         
     # for idx, feedback in (customer_feedback):
-        # st.write(f" - {feedback}") # hyphen means bullet point
+        # st.write(f"- {feedback}") # hyphen means bullet point
        
 
 with tab3:
