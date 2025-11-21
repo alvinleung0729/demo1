@@ -49,5 +49,5 @@ with tab3:
         "Online shopping": "Continued growth",
         "Subscription services": "Rising popularity"
     }
-    for idx, trend, status in enumerate(market_trends.items()):
+    for idx, (trend, status) in enumerate(market_trends.items()):
         st.write(f"{idx+1}. {trend}: {status}")
