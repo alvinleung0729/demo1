@@ -35,8 +35,8 @@ with tab2:
         "Very satisfied with the product quality.",
         "Quick delivery and excellent support."
     ]
-    for feedback in customer_feedback:
-        st.write(f"- {feedback}")
+    for idx, feedback in customer_feedback:
+        st.write(f"{idx+1}. {feedback}") # hyphen means bullet point
 with tab3:
     st.write("Content for Market Trends")
     market_trends = {
