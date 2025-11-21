@@ -61,6 +61,7 @@ with st.expander("More Information"):
     st.write("- Data was collected through surveys and sales reports.")
 
 placeholder = st.empty()
+# Display dynamic business insights
 for i in range(5):
     placeholder.write(f"Loading data... {i*20}% complete")
     time.sleep(1)
