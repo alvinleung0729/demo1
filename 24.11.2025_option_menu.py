@@ -11,7 +11,7 @@ with st.sidebar:
         icons = ["1-circle-fill",
                  "2-circle-fill",
                  "3-circle-fill"],
-        menu_icon= "emoji-smile-fill",
+        menu_icon= "emoji-sad-fill",
         default_index=0,
     )
 
