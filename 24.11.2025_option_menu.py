@@ -13,7 +13,7 @@ with st.sidebar: # create a new area on the LHS
         default_index=0,
     )
 
-if selected == "Home":
+if selected == "ISOM3400":
     st.title(f"Welcome to the {selected} page.")
 
 if selected == "About":
