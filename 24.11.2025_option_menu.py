@@ -4,7 +4,7 @@ from streamlit_option_menu import option_menu
 st.title('Hello, Students!')
 st.write('This is your Python Programming course.')
 
-with st.sidebar:
+with st.sidebar: # create a new area on the LHS
     selected=option_menu(
         menu_title = "Menu",
         options = ["Home", "About", "Contact"],
