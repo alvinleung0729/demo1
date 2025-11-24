@@ -14,4 +14,4 @@ st.table(df)                    # Static table
 
 # Customize columns directly in the dataframe display
 st.dataframe(df.style.format({'Sales': '${:,.0f}', 
-                              'Customers': 'Number = {:,.0f}'}))
+                              'Customers': 'N = {:,.0f}'}))
